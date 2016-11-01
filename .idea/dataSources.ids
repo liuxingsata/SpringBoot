@@ -15,18 +15,36 @@
       <schema id="4" name="performance_schema"/>
       <schema id="5" name="sys"/>
       <table id="6" parent="1" name="admins"/>
-      <column id="7" parent="6" name="id">
+      <table id="7" parent="1" name="blogs"/>
+      <column id="8" parent="6" name="id">
         <mandatory>1</mandatory>
         <data-type>int(11)|0</data-type>
         <sequence-identity>1</sequence-identity>
       </column>
-      <column id="8" parent="6" name="username">
+      <column id="9" parent="6" name="username">
         <data-type>varchar(255)|0</data-type>
       </column>
-      <column id="9" parent="6" name="password">
+      <column id="10" parent="6" name="password">
         <data-type>varchar(255)|0</data-type>
       </column>
-      <key id="10" parent="6" name="PRIMARY">
+      <key id="11" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="12" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="13" parent="7" name="title">
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="14" parent="7" name="blogs">
+        <data-type>varchar(2555)|0</data-type>
+      </column>
+      <column id="15" parent="7" name="createtime">
+        <data-type>datetime|0</data-type>
+      </column>
+      <key id="16" parent="7" name="PRIMARY">
         <columns>id</columns>
         <primary>1</primary>
       </key>

@@ -11,9 +11,9 @@ import spring.wth.dao.AdminDao;
 public class AdminLoginService {
   public Admin login(Admin admin){
     AdminDao adminDao = new AdminDao();
-    Admin a = adminDao.findAdmin(admin);
+    Admin a = adminDao.findAdmin();
     if(a.getUsername().equals(admin.getUsername())&&a.getPassword().equals(admin.getPassword())){
-      return admin;
+      return a;
     }
     return null;
   }
