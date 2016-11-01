@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9da68685-6ccf-4895-a944-30b9aecd54ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_subchen_jetbrick_commons_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_subchen_jetbrick_template_2_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_subchen_jetbrick_template_springmvc_2_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_subchen_jetbrick_template_web_2_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_annotations_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/spring/wth/MvcConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/spring/wth/web/appController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/application.properties.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jetx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/admin.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/error.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/error.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/spring/wth/Application.java" afterPath="$PROJECT_DIR$/src/main/java/spring/wth/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/spring/wth/web/webController.java" afterPath="$PROJECT_DIR$/src/main/java/spring/wth/web/webController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
     </list>
     <list id="bdd92819-d83b-4a90-9b72-b65a2de0ec15" name="New changelist" comment="" />
     <ignored path="SpringBoot.iws" />
@@ -968,7 +949,7 @@
       <workItem from="1477877265059" duration="13338000" />
       <workItem from="1477963066965" duration="4505000" />
       <workItem from="1477968476631" duration="3988000" />
-      <workItem from="1477977623491" duration="6736000" />
+      <workItem from="1477977623491" duration="6760000" />
     </task>
     <task id="LOCAL-00001" summary="ignore">
       <created>1477967077835</created>
@@ -998,11 +979,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477982375545</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="view">
+      <created>1477987438976</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1477987438976</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33491000" />
+    <option name="totallyTimeSpent" value="33515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1015,7 +1003,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1083,7 +1071,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ignore" />
     <MESSAGE value="bb" />
-    <option name="LAST_COMMIT_MESSAGE" value="bb" />
+    <MESSAGE value="view" />
+    <option name="LAST_COMMIT_MESSAGE" value="view" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
